@@ -1,0 +1,46 @@
+<!-- <div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                Rules For Quiz
+            </div>
+            <div class="card-body">
+                <label for=""> Time limit - 15 minutes
+                </label>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header " style="text-align: center; background-color: cadetblue;">
+                <p style="font-size: 40px; font-weight: 500;" >Rules For Quiz!</p>
+            </div>
+            <div class="card-body container" style="width: 50%;">
+                <div class="alert alert-primary" role="alert">
+                    <label for=""> Time Limit: 10 minutes</label>
+                    <!-- {{correctAnswer+wrongAnswer+unattemptedAnswer}} -->
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <label for="">All Questions are Compulsory</label>
+                    <!-- {{correctAnswer+wrongAnswer}} -->
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <label for="">Only one option is correct for each questions</label> 
+                      <!-- {{correctAnswer}} -->
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <label for="">After time Completion test will be automatically submitted</label>
+                    <!-- {{wrongAnswer}} -->
+                </div>
+
+                <button style="float: right;" class="btn btn-primary" (click)="startQuiz()">Start Quiz</button>
+
+
+            </div>
+            
+        </div>
+    </div>
+</div>

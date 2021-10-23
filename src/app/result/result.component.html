@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header " style="text-align: center; background-color: cadetblue;">
+                <p style="font-size: 40px; font-weight: 500;" >Result!</p>
+            </div>
+            <div class="card-body container" style="width: 50%;">
+                <div class="alert alert-secondary" role="alert">
+                    <label for=""> Total no of Questions:</label>
+                    {{correctAnswer+wrongAnswer+unattemptedAnswer}}
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <label for="">No Of Questions Attempted:</label>
+                    {{correctAnswer+wrongAnswer}}
+                </div>
+                <div class="alert alert-success" role="alert">
+                    <label for="">No Of Questions Right:</label> 
+                      {{correctAnswer}}
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    <label for="">No Of Questions Wrong:</label>
+                    {{wrongAnswer}}
+                </div>
+                <button style="float: right;" class="btn btn-primary" (click)="GoToHomePage()">Go To Home Page</button>
+
+
+            </div>
+        </div>
+    </div>
+</div>
