@@ -21,27 +21,27 @@ export class QuestionsService {
    },
    {
     questionId:3,
-    question:"which team has scored lowest ever by a team in IPL?",
-    options:["RCB","MI","SRH","KKR"],
-    answer:"RCB",
+    question:"In which year did the Berlin wall fell?",
+    options:["1991","1987","1990","1989"],
+    answer:"1989",
   },
   {
     questionId:4,
-    question:"Which car manufacturer was the first to win 100 F1 races?",
-    options:["Ferrari","Nissan","Ford","Tata"],
-    answer:"Ferrari",
+    question:"Which city is the capital of Georgia?",
+    options:["Kurd","Tbilisi","Dushanbe","Atlanta"],
+    answer:"Tbilisi",
    }
    ,{
     questionId:5,
-    question:"Who is the first player to feature in 200 IPL games?",
-    options:["MS Dhoni","Virat Kohli","Suresh Raina","Zaheer Khan"],
-    answer:"MS Dhoni",
+    question:"Who is the current president of India?",
+    options:["Pratibha Patil","Ramnath Kovind","Pranav Mukherjee","Manmohan Singh"],
+    answer:"Ramnath Kovind",
    },
    {
     questionId:6,
-    question:"which team has scored lowest ever by a team in IPL?",
-    options:["RCB","MI","SRH","KKR"],
-    answer:"RCB",
+    question:"When did Russia conducted its first nuclear test?",
+    options:["1947","1948","1949","1950"],
+    answer:"1949",
   }
 ]
 }
